@@ -9,6 +9,9 @@ destination:
 ignoreNullFields: true
 shared: true
 action: update
+schedule:
+    interval: 0 * * * *
+    isPaused: false
 dataSetExternalId: uc:001:oee:ds
 # Specify credentials separately like this:
 # authentication:
